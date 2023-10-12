@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1477807818779376832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006359259889386695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce29ca054331cf44ab4feb27d6c56d24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpDuration: 4
+  powerFactor: 1.2
+--- !u!114 &9207383540446270263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2984289269441990529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f04f7c71f4c5b349b1804f575f7d054, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  translationName: BULLET_TIME
+  FallbackText: Bullet Time
+--- !u!1001 &1609150607643142683
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 948821366026401931, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 1821178163908406286, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: powerUpSound
+      value: 
+      objectReference: {fileID: 8300000, guid: b81f9e823ea1afa4191d907fe8409200, type: 3}
+    - target: {fileID: 1821178163908406286, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: scoreWillAdd
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 1991602145971777244, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_Name
+      value: PowerUp5_BulletTime
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090230606427233132, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090230606427233132, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090230606427233132, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090230606427233132, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090230606427233132, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090230606427233132, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090230606427233132, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090230606427233132, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090230606427233132, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090230606427233132, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090230606427233132, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398717934260373570, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_text
+      value: Bullet Time
+      objectReference: {fileID: 0}
+    - target: {fileID: 2398717934260373570, guid: a4295272784233844a3dcc49e1437855, type: 3}
+      propertyPath: m_wordSpacing
+      value: 22.88
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a4295272784233844a3dcc49e1437855, type: 3}
+--- !u!1 &1006359259889386695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1991602145971777244, guid: a4295272784233844a3dcc49e1437855, type: 3}
+  m_PrefabInstance: {fileID: 1609150607643142683}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2984289269441990529 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4557232381910967706, guid: a4295272784233844a3dcc49e1437855, type: 3}
+  m_PrefabInstance: {fileID: 1609150607643142683}
+  m_PrefabAsset: {fileID: 0}
